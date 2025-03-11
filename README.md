@@ -19,33 +19,12 @@ This project enables businesses to efficiently manage their cloud infrastructure
 -- Better categorization of results.
 
 ## Features
-- **Demand Prediction**: Predicts cloud resource demand using AI models based on historical and real-time user data.
-- **Auto-Scaling**: Automatically adjusts cloud resources to meet predicted demand.
-- **Cost Optimization**: Minimizes cloud infrastructure costs by preventing unnecessary resource allocation.
-- **Real-Time Monitoring**: Continuously tracks system performance and adjusts scaling in real-time.
-- **Cloud Provider Integration**: Supports integration with major cloud platforms like AWS, Google Cloud, and Microsoft Azure.
 
 ## Architecture
 The system is composed of the following key components:
-- **Data Collector**: Gathers historical usage data and real-time user activity.
-- **AI Prediction Engine**: Utilizes machine learning algorithms (e.g., time-series forecasting, reinforcement learning) to predict future resource needs.
-- **Cloud Resource Manager**: Interfaces with cloud providers to automatically scale resources.
-- **Monitoring Module**: Tracks system performance and provides feedback for improving prediction accuracy.
 
 ## Project Structure
 ```bash
-ai-cloud-auto-scheduler/
-│
-├── app.py
-├── train_model.py
-├── autoscaler.py
-├── config.yaml
-├── requirements.txt
-├── data/
-│   └── historical_data.csv
-├── model/
-│   └── prediction_model.h5
-└── README.md
  ```
 
 
@@ -94,19 +73,7 @@ ai-cloud-auto-scheduler/
     ```
 
 ## Usage
-1. **Collect Data**: Ensure that historical usage data and real-time user activity are being fed into the system.
-2. **Train Model**: Use the provided script to train the AI model on historical data:
-   ```bash
-   python train_model.py
-3. **Auto-Scaling**: Deploy the auto-scaling service and let it handle resource management based on AI predictions.
-**Configuration**
-- Scaling thresholds: Define thresholds for resource scaling in config.yaml.
-- Cloud Provider API: Update API configurations in the config.yaml file based on your cloud provider.
-  
-**Future Improvements**
-- Support for multi-cloud integration (AWS, GCP, Azure).
-- Enhanced prediction models incorporating additional metrics like network traffic and storage demand.
-- Predictive maintenance to auto-detect resource failures.
+
 
 **Contributing**
 Contributions are welcome! Please open an issue or submit a pull request for any bug fixes or new features.
@@ -117,10 +84,9 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 ### 🐈‍⬛ GitHub Profiles of Creators:
 
 [![GitHub Ishaan Rastogi](https://img.shields.io/badge/IshaanRastogi-%23FFFFFF.svg?logo=GitHub&logoColor=black)](https://github.com/TridentifyIshaan)
-[![GitHub Jai Tiwari](https://img.shields.io/badge/JaiTiwari-%23FFFFFF.svg?logo=GitHub&logoColor=black)](https://github.com/JAI0705)
 [![GitHub Sainava Modak](https://img.shields.io/badge/SainavaModak-%23FFFFFF.svg?logo=GitHub&logoColor=black)](https://github.com/Sainava)
-[![GitHub Srujal Sau](https://img.shields.io/badge/SrujalSau-%23FFFFFF.svg?logo=GitHub&logoColor=black)](https://github.com/22srujal)
 [![GitHub Gourav Garg](https://img.shields.io/badge/GouravGarg-%23FFFFFF.svg?logo=GitHub&logoColor=black)](https://github.com/18gourav)
+[![GitHub Vaishnavi Dwivedi](https://img.shields.io/badge/VaishnaviDwivedi-%23FFFFFF.svg?logo=GitHub&logoColor=black)](https://github.com/Vaishnavi231104)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
