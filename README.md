@@ -1,4 +1,4 @@
-# ArXiv_Nexus
+# OrganiX
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5)
 
@@ -6,9 +6,8 @@
 # AI-based Research Assistant
 
 ## Overview
-The **AI-based Research Assistant** is a web-based research tool that queries arXiv for academic papers based on user-input topics. It fetches and display academic papers from arXiv in a user-friendly interface.
-
-This project enables businesses to efficiently manage their cloud infrastructure, prevent resource over-provisioning or under-provisioning, and save on cloud costs through dynamic, automated scaling.
+The **AI-based Research Assistant** is a web-based research tool that queries arXiv for academic papers based on user-input topics. It fetches and displays academic papers from arXiv in a user-friendly interface.
+It is smart and AI-driven as it provides semantic searching.
 
 ## How is it better than arXiv itself?
 
