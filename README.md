@@ -50,32 +50,9 @@ The system is composed of the following key components:
 ![JavaScipt](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
   
-## Installation
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/yourusername/ai-cloud-auto-scheduler.git
-    cd ai-cloud-auto-scheduler
-    ```
-
-2. **Install dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Configure cloud provider credentials**:
-   - For AWS: Set up your AWS credentials in `~/.aws/credentials`.
-   - For GCP/Azure: Follow the respective setup guides to integrate API keys.
-
-4. **Run the project**:
-    ```bash
-    python app.py
-    ```
-
 ## Usage
 
-
-**Contributing**
+## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any bug fixes or new features.
 
 ## License
