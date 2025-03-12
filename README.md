@@ -34,7 +34,6 @@ The system is composed of the following key components:
 - Libraries:
   - TensorFlow/PyTorch for AI model
   - Pandas, NumPy (for data processing)
-  - Boto3 (for AWS) or equivalent for cloud integration
   - Flask (for web hosting & backend linkage)
   - SQLAlchemy ( for backend database storage )
 - [Dataset](https://www.kaggle.com/datasets/abdurraziq01/cloud-computing-performance-metrics/data}) 
