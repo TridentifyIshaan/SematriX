@@ -71,6 +71,7 @@ body {
 /* Start Header */
 .header {
   padding: 20px;
+  background-color: #f6f6f6;
 }
 .header .container {
   display: flex;
@@ -174,30 +175,39 @@ body {
 /* End Landing Section */
 /* Start Features */
 .features {
-  padding-top: var(--section-padding);
-  padding-bottom: var(--section-padding);
-  background-color: var(--section-background);
+  padding: 60px 0;
+  background-color: #f6f6f6;
 }
 .features .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .features .feat {
+  flex: 1 1 calc(33.333% - 20px);
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
   padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-.features .feat i {
-  color: var(--main-color);
+.features .feat img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 .features .feat h3 {
-  font-weight: 800;
-  margin: 30px 0;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
 }
 .features .feat p {
-  line-height: 1.8;
+  font-size: 16px;
   color: #777;
-  font-size: 17px;
+  text-align: justify;
 }
 /* End Features */
 /* Start technologies  */
@@ -419,3 +429,39 @@ body {
   color: var(--main-color);
 }
 /* End Footer */
+
+/* Start Logo Box */
+.logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    border: 2px solid #BF3131;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.logo-box img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.logo-box h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #BF3131;
+    margin-bottom: 10px;
+}
+
+.logo-box p {
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+}
+/* End Logo Box */
