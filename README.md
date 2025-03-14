@@ -30,7 +30,6 @@ The system is composed of the following key components:
 ## Prerequisites
 - Python 3.8+ ( For Backend and AI Models )
 - HTML, CSS, Bootstrap, JS ( for Web Interface )
-- Cloud account with AWS, GCP, or Azure (with autoscaling enabled)
 - Libraries:
   - TensorFlow/PyTorch for AI model
   - Pandas, NumPy (for data processing)
